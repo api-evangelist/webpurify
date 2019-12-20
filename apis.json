@@ -1,0 +1,59 @@
+{
+    "name": "WebPurify",
+    "description": "Profanity Filtering, Image Moderation and Video Moderation Services starting at $5 per month. Start a free trial today.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/524-webpurify.jpg",
+    "tags": [
+        "content",
+        "content filtering",
+        "filters",
+        "have api",
+        "profanity",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/webpurify\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "WebPurify",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/524-webpurify.jpg",
+            "humanURL": "http:\/\/www.webpurify.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": []
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api1.webpurify.com\/services\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.webpurify.com\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.webpurify.com\/blog\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/webpurify"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/webpurify"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/#!\/webpurify"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.webpurify.com\/"
+        }
+    ]
+}
