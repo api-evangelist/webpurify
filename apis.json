@@ -10,8 +10,8 @@
         "profanity",
         "target"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/webpurify\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,11 +22,24 @@
             "humanURL": "http:\/\/www.webpurify.com\/",
             "baseURL": "",
             "tags": [],
-            "properties": []
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/webpurify\/master\/webpurify-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/webpurify\/master\/webpurify-postman-collection.json"
+                }
+            ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base",
             "url": "http:\/\/api1.webpurify.com\/services\/"
